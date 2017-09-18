@@ -1,26 +1,12 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Colorful Flat Website Template | Home :: w3layouts</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href=" images/fave-icon.png" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-   		<link href=" css/style.css" rel="stylesheet" type="text/css" media="all" />
-   		<link href=" css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-		<script src=" js/modernizr.custom.28468.js"></script>
-		<link rel="stylesheet" type="text/css" href=" css/simptip-mini.css" media="screen,projection" />
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<?php include"skeleton/codigohead.php";?>
 	</head>
 	<body>
-		<!---start-wrap----->
-			<!---start-header----->
+		<!---start-wrap-->
+			<!--start-header-->
 			<div class="header" id="home">
 				<div class="wrap">
 				<div class="top-header">
@@ -39,8 +25,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="clear"> </div>
 				</div>
-			<!---End-header----->
-			<!----start-content-slider---->
+			<!---End-header-->
+			<!--start-content-slider-->
 			<div id="da-slider" class="da-slider">
 					  <div id="intro" class="da-slide">
 					    <div class="da-title">
