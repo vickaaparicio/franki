@@ -148,7 +148,7 @@
 				<div class="clear"> </div>
 				<script type="text/javascript" src="js/fliplightbox.min.js"></script>
 				<script type="text/javascript">$('body').flipLightBox()</script>
-				<!---start-gallery-script----->
+				<!---start-gallery-script-->
 					<script type="text/javascript" src="js/jquery.easing.min.js"></script>	
 					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
 					<script type="text/javascript">
@@ -208,13 +208,13 @@
 								});
 							});
 							</script>
-				<!---//End-gallery-script----->
+				<!---//End-gallery-script-->
 				<div class="clear"> </div>
 				</div>
 			</div>
 			</div>
-			<!---End-recent-works----->
-			<!--- start-blog----->
+			<!---End-recent-works-->
+			<!--- start-blog-->
 			<div class="blog">
 				<div class="wrap">
 					<div class="blog-grids">
@@ -229,7 +229,7 @@
 							</div>
 							<div class="clear"> </div>
 						</div>
-						<!----->
+						<!---->
 						<div class="blog-grid2">
 							<div class="blog-grid2-left">
 								<h3><a href="#">Layered Neatly Photoshop Template</a></h3>
@@ -334,28 +334,11 @@
 				</div>
 				</div>
 			</div>
-			<!--- //End-recent-posts----->
-			<!---start-contact---->
-			<div class="contact" id="contact">
-				<div class="wrap">
-				<div class="contact-head">
-					<h3>Contact us</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>	
-				</div>
-				<div class="contatct-form">
-					<form>
-						<input type="text" value="Name :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name :';}">
-						<input type="text" value="Email :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email :';}">
-						<textarea rows="2" cols="70" onfocus="if(this.value == 'Message :') this.value='';" onblur="if(this.value == '') this.value='Message :';" >Message :</textarea>
-						<input type="submit" value="Send" />
-					</form>
-				</div>
-			</div>
-			</div>
-			<!---End-contact---->
+			<!---//End-recent-posts-->
+			<?php include"skeleton/contacto.php";?>
 		</div>
-		<!---End-content---->
-		<!----start-footer---->
+		<!---End-content-->
+		<!---start-footer-->
 		<div class="footer">
 			<div class="wrap">
 				<div class="footer-grids">
